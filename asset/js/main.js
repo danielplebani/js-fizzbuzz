@@ -8,7 +8,7 @@ Scrivi un programma che stampi in console i numeri da 1 a 100, ma che:
 //creo un for che mi stamperà i numeri da 0 a 100 e lo stampo in pagina
 const list = document.getElementById('listaNumeri');
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     const listItem = document.createElement('li');
 
     //i multipli di 3 e 5 li trasformo in fizzbuzz,i multipli di 3 li trasformo in fizz,i multipli di 5 li trasformo in buzz e li stampo tutti in pagina
