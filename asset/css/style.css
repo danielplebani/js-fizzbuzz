@@ -4,10 +4,28 @@
     box-sizing: border-box;
 }
 
-:root{}
-
-/*header*/
-
 /*main*/
+li{
+    background-color: blueviolet;
+    border: 0.2px dotted darkgray;
+    box-shadow: 5px 5px 5px blueviolet;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: calc(100% / 8);
+    aspect-ratio: 1 / 1;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/*footer*/
+li:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 100px;
+    color: antiquewhite;
+}
+
